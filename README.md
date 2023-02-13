@@ -1,7 +1,5 @@
 # Estão Servidos? - Projeto Individual Módulo 3 
 
-<img src="./assets/img/Resilia_RD.png" style="margin: 0 10%; width: 80%">
-
 <span style="font-size: smaller">
 
 **Feito por:** Jonatas (Jhonny) <br>
@@ -10,7 +8,7 @@
 
 </span>
 
-Projeto Resilia onde devemos desenvolver uma fake API com dados mokados, utilizando o pacote *'json-server'* para criar um servidor de teste. O servidor deverá  conter ao menos 2 rotas com 3 ou mais dados, nas quais o usuário poderá realizar os métodos <span style="background: #ffd; color: #3b3b38;">GET</span>, <span style="background: #ffd; color: #3b3b38;">POST</span>, <span style="background: #ffd; color: #3b3b38;">PUT</span> e <span style="background: #ffd; color: #3b3b38;">DELETE</span>.
+Projeto Resilia onde devemos desenvolver uma fake API com dados mokados, utilizando o pacote *'json-server'* para criar um servidor de teste. O servidor deverá conter ao menos 2 rotas com 3 ou mais dados, nas quais o usuário poderá realizar os métodos <span style="background: #ffd; color: #3b3b38;">GET</span>, <span style="background: #ffd; color: #3b3b38;">POST</span>, <span style="background: #ffd; color: #3b3b38;">PUT</span> e <span style="background: #ffd; color: #3b3b38;">DELETE</span>.
 
 ## Índice
 * [Tema do "db.json"](#tema-do-dbjson)
@@ -27,18 +25,18 @@ Para este projeto, tínhamos que desenvolver um servidor de dados que seria util
 
 Este banco de dados possui 3(três) rotas: 
 - Artista
-- Album
+- Álbum
 - Música
 
 Na rota artista, os dados são o nome do artista e os álbuns que ele possui, além do identificador **ID**, necessário para identificação do json-server.
 
-Na rota album, cada álbum possui nome, tipo, data de lançamento e lista de faixas, além do identificador. Esta rota também possui identificadores relacionais, como o ID do artista, e lista de faixas utiliza o ID das faixas em *array*. O ID do albúm também relaciona o albúm ao artista, utilizando um padrão de escrita:
+Na rota album, cada álbum possui nome, tipo, data de lançamento e lista de faixas, além do identificador. Esta rota também possui identificadores relacionais, como o ID do artista, e lista de faixas utiliza o ID das faixas em *array*. O ID do álbum também relaciona o álbum ao artista, utilizando um padrão de escrita:
 
 | ID do Artista | - | ID do Álbum |
 |:---:|:---:|:---:|
 | 1 | - | 1 |
 
-Na rota de música, além do nome da música e do gênero, temos os identificadores da música, do albúm ao qual pertence e do artista. O ID da música segue o padrão relacional do álbum, unindo o id do artista, do álbum e agora da música, separados por hífen:
+Na rota de música, além do nome da música e do gênero, temos os identificadores da música, do álbum ao qual pertence e do artista. O ID da música segue o padrão relacional do álbum, unindo o id do artista, do álbum e agora da música, separados por hífen:
 
 | ID do Artista | - | ID do Álbum | - | ID da Música |
 |:---:|:---:|:---:|:---:|:---:|
@@ -115,11 +113,11 @@ Para **POST**, use a rota onde quer incluir um novo dado e na aba "body", escrev
 
 Para **PUT**, use como POST para incluir um novo dado. Para atualizar um dado, insira na URL a rota/id do dado a ser atualizado e no body os campos a serem alterados.
 
-Para **DELETE**, use a rota/id do dado que deseja exluir.
+Para **DELETE**, use a rota/id do dado que deseja excluir.
 
 O *json-server* pode criar um ID automaticamente, incrementando a partir do último ID se o mesmo for numérico. Como as rotas "album" e "musica" utilizam IDs personalizados, não consegui encontrar a forma de o *json-server* automaticamente relacionar e criar os IDs. Ao menos não via Postman.
 
-Para evitar strings aleatórias criadas pelo *json-server*, recomendo escrever os IDs de albuns e músicas, co-relacionando os dados.
+Para evitar strings aleatórias criadas pelo *json-server*, recomendo escrever os IDs de álbuns e músicas, correlacionando os dados.
 
 Para a rota "artista", os IDs são numéricos, então você pode testar a funcionalidade de *autoincrement ID* nessa rota.
 <br> <br>
