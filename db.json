@@ -1,0 +1,206 @@
+{
+  "artista": [
+    {
+      "id": 1,
+      "nome": "Pequena Ariana",
+      "albuns": [
+        "1-1",
+        "1-2"
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "EMEMO",
+      "albuns": [
+        "2-1",
+        "2-2"
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Cláudia Ivete",
+      "albuns": [
+        "3-1",
+        "3-2"
+      ]
+    }
+  ],
+  "album": [
+    {
+      "id": "1-1",
+      "nome": "Obrigada, anterior",
+      "tipo": "Single",
+      "data_de_lancamento": "2007",
+      "faixas": [
+        "1-1-1"
+      ],
+      "ID_artista": 1
+    },
+    {
+      "id": "1-2",
+      "nome": "Meu Nada",
+      "tipo": "Álbum",
+      "data_de_lancamento": "2014",
+      "faixas": [
+        "1-2-1",
+        "1-2-2",
+        "1-2-3",
+        "1-2-4",
+        "1-2-5",
+        "1-2-6"
+      ],
+      "ID_artista": 1
+    },
+    {
+      "id": "2-1",
+      "nome": "Água Terra Fogo Ar",
+      "tipo": "EP",
+      "data_de_lancamento": "2012",
+      "faixas": [
+        "2-1-1",
+        "2-1-2",
+        "2-1-3"
+      ],
+      "ID_artista": 2
+    },
+    {
+      "id": "2-2",
+      "nome": "Viagi!",
+      "tipo": "EP",
+      "data_de_lancamento": "2021",
+      "faixas": [
+        "2-2-1",
+        "2-2-2",
+        "2-2-3"
+      ],
+      "ID_artista": 2
+    },
+    {
+      "id": "3-1",
+      "nome": "Deixa a Poeira Baixar",
+      "tipo": "Single",
+      "data_de_lancamento": "2022",
+      "faixas": [
+        "3-1-1"
+      ],
+      "ID_artista": 3
+    },
+    {
+      "id": "3-2",
+      "nome": "Cabeça e o Coração",
+      "tipo": "Single",
+      "data_de_lancamento": "2023",
+      "faixas": [
+        "3-2-1"
+      ],
+      "ID_artista": 3
+    }
+  ],
+  "musica": [
+    {
+      "id": "1-1-1",
+      "id_album": "1-1",
+      "id_artista": 1,
+      "titulo": "Obrigada, Anterior",
+      "genero": "pop"
+    },
+    {
+      "id": "1-2-1",
+      "id_album": "1-2",
+      "id_artista": 1,
+      "titulo": "Anéis de Saturno",
+      "genero": "pop"
+    },
+    {
+      "id": "1-2-2",
+      "id_album": "1-2",
+      "id_artista": 1,
+      "titulo": "Umas Mil Vezes",
+      "genero": "pop"
+    },
+    {
+      "id": "1-2-3",
+      "id_album": "1-2",
+      "id_artista": 1,
+      "titulo": "Obrigada, anterior",
+      "genero": "pop"
+    },
+    {
+      "id": "1-2-4",
+      "id_album": "1-2",
+      "id_artista": 1,
+      "titulo": "Solução",
+      "genero": "pop"
+    },
+    {
+      "id": "1-2-5",
+      "id_album": "1-2",
+      "id_artista": 1,
+      "titulo": "Ficante",
+      "genero": "pop"
+    },
+    {
+      "id": "1-2-6",
+      "id_album": "1-2",
+      "id_artista": 1,
+      "titulo": "Obrigada, Anterior (versão inglês)",
+      "genero": "pop"
+    },
+    {
+      "id": "2-1-1",
+      "id_album": "2-1",
+      "id_artista": 2,
+      "titulo": "Rosa dos Ventos",
+      "genero": "rock"
+    },
+    {
+      "id": "2-1-2",
+      "id_album": "2-1",
+      "id_artista": 2,
+      "titulo": "Noite Escura",
+      "genero": "rock"
+    },
+    {
+      "id": "2-1-3",
+      "id_album": "2-1",
+      "id_artista": 2,
+      "titulo": "Desenho",
+      "genero": "rock"
+    },
+    {
+      "id": "2-2-1",
+      "id_album": "2-2",
+      "id_artista": 2,
+      "titulo": "Ai!",
+      "genero": "rock"
+    },
+    {
+      "id": "2-2-2",
+      "id_album": "2-2",
+      "id_artista": 2,
+      "titulo": "Diamante",
+      "genero": "rock"
+    },
+    {
+      "id": "2-2-3",
+      "id_album": "2-2",
+      "id_artista": 2,
+      "titulo": "Viagi!",
+      "genero": "rock"
+    },
+    {
+      "id": "3-1-1",
+      "id_album": "3-1",
+      "id_artista": 3,
+      "titulo": "Deixa a Poeira Baixar",
+      "genero": "axe"
+    },
+    {
+      "id": "3-2-1",
+      "id_album": "3-2",
+      "id_artista": 3,
+      "titulo": "Cabeça e o Coração",
+      "genero": "axe"
+    }
+  ]
+}
